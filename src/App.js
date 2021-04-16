@@ -23,6 +23,7 @@ function App() {
           <a
             href="https://www.cvs.com/immunizations/covid-19-vaccine"
             target="_blank"
+            rel="noreferrer"
           >
             here
           </a>{" "}
