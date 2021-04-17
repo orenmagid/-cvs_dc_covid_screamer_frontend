@@ -48,11 +48,10 @@ const Status = () => {
             <>
               <p>No appointments available at this time. </p>
 
-              <button
-                onMouseEnter={() => setTesting(true)}
-                onMouseLeave={() => setTesting(false)}
-              >
-                Hover over me to test the notification sound!
+              <button onClick={() => setTesting(!testing)}>
+                {testing
+                  ? "Click me to STOP the notification sound!"
+                  : "Click me to test the notification sound!"}
               </button>
             </>
           )}
