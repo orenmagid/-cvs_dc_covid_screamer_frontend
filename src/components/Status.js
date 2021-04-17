@@ -8,7 +8,7 @@ const Status = () => {
   const [testing, setTesting] = useState(false)
   const [silenced, setSilenced] = useState(false)
   const { data, error, isLoading, isError } = useQuery("status", getStatus, {
-    refetchInterval: 5000,
+    refetchInterval: 30000,
   })
 
   if (isLoading) {
