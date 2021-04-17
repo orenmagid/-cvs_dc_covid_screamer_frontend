@@ -2,7 +2,7 @@ import Status from "./components/Status"
 
 function App() {
   return (
-    <section>
+    <section style={{ padding: "0 1rem" }}>
       <header style={{ textAlign: "center" }}>
         <h1>CVS DC COVID Vaccine Availability Screamer</h1>
         Made by <a href="https://github.com/orenmagid">Oren Magid</a>
