@@ -10,12 +10,18 @@ function App() {
       <main>
         <p>
           This application will scream at you if there are vaccine appointments
-          available at a CVS in DC. This is likely to happen in the middle of
-          the night—I haven't seen any become available during the day yet.
-          Here's what I suggest: when you are ready to go to sleep, turn off
-          other notifications on your computer and leave this open in your
-          browser. Make sure your computer's volume is high enough to wake you
-          up (test it below), and{" "}
+          available at a CVS in DC. When I created it, this was likely to happen
+          in the middle of the night and I needed something to wake me up when
+          appointments became available. Now, they seem to be available during
+          the day more often and this is less necessary.
+        </p>{" "}
+        <p>
+          But if for some reason you still need this to wake you up, or scare
+          you silly, when appointments become available, here's what I suggest:
+          when you are ready to go to sleep, turn off other notifications on
+          your computer and leave this open in your browser. Turn "screaming"
+          on. Make sure your computer's volume is high enough to wake you up
+          (test it below), and{" "}
           <a href="https://wedflow.zendesk.com/hc/en-us/articles/360037926892-How-to-prevent-your-computer-from-going-to-sleep-during-large-uploads-">
             make sure your computer won't go to sleep when you do.
           </a>{" "}
